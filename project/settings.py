@@ -27,6 +27,7 @@ SECRET_KEY = 'django-insecure-p0a!!wcg)f-a$-(3#r)jracbvp_vx8tr35#de600q_gy3jhcbj
 DEBUG = True
 
 ALLOWED_HOSTS = ["virendra.azurewebsites.net"]
+CSRF_TRUSTED_ORIGINS=["virendra.azurewebsites.net"]
 
 
 # Application definition
